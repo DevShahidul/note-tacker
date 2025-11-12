@@ -59,11 +59,20 @@ Each feature folder (like `note`) contains:
 
 Example:
 
-![Note List](https://via.placeholder.com/600x400?text=Note+List)
+![Empty Note](https://raw.githubusercontent.com/DevShahidul/note-tacker/main/screenshots/empty-note-list.png)
+*Empty note list*
+
+![Create Note](https://raw.githubusercontent.com/DevShahidul/note-tacker/main/screenshots/create-new-note.png))
+*Create Note*
+
+(![Note List](https://raw.githubusercontent.com/DevShahidul/note-tacker/main/screenshots/note-list.png))
 *Note list view with edit & delete actions*
 
-![Edit Note](https://via.placeholder.com/600x400?text=Edit+Note)
+![Edit Note](https://raw.githubusercontent.com/DevShahidul/note-tacker/main/screenshots/edit-note.png)
 *Edit note in inline editor*
+
+![Delete Note](https://raw.githubusercontent.com/DevShahidul/note-tacker/main/screenshots/delete-note.png)
+*Delete note in inline editor*
 
 > Replace placeholder images with real screenshots from your app.
 
