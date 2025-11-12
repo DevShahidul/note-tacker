@@ -66,6 +66,12 @@ export const NoteForm = ({
     onSave();
   };
 
+  function handleFocus(e: React.ChangeEvent<HTMLTextAreaElement>){
+    const input = e.target;
+    const length = input.value.length;
+    input.setSelectionRange(length, length);
+  }
+
   const timeStamp = new Date().getTime();
 
 
@@ -102,6 +108,7 @@ export const NoteForm = ({
             autoFocus
             value={formData.content}
             onChange={handleChange}
+            onFocus={handleFocus}
             id="note-content"
             name="note-content"
             className="resize-none focus:shadow-none focus-visible:ring-primary"
