@@ -79,7 +79,6 @@ Example:
 
 *Delete note in inline editor*
 
-> Replace placeholder images with real screenshots from your app.
 
 ---
 
